@@ -19,7 +19,7 @@ if ( ! class_exists( 'PStarter_Plugin_Assets' ) ){
                 }
             
                 return $src;
-            }, 99, 2 );
+            }, 98, 2 );
             add_action( 'wp_enqueue_scripts', [ $this, 'pstarter_enqueue_backend_scripts_and_styles' ] );
         }
 
